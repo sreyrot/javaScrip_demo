@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                    <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <button class="btn btn-danger" id="low" type="button">-</button>  
+                            </div>
+                            <input type="text" id="value" class="form-control text-center" disabled value="0">
+                            <div class="input-group-append">
+                              <button class="btn btn-success" id="add" type="button">+</button>  
+                             </div>
+                          </div>
+                          <hr>
+                          <h1 class="text-center" id="result"></h1>
+                          <br>
+                          <br>
+                          <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="height: 20px" id="p_bar" ></div>
+                              </div>
+            </div>
+            <div class="col-4"></div>
+            
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/calulate.js"></script>
+</body>
+</html>
